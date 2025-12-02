@@ -1662,6 +1662,11 @@ select {
     background-color: #414042;
     background-color: var(--color-primary);
 }
+.bg-red-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(239, 68, 68, 1);
+    background-color: rgba(239, 68, 68, var(--tw-bg-opacity, 1));
+}
 .bg-red-600 {
     --tw-bg-opacity: 1;
     background-color: rgba(220, 38, 38, 1);
@@ -1671,11 +1676,6 @@ select {
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
-}
-.bg-red-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(239, 68, 68, 1);
-    background-color: rgba(239, 68, 68, var(--tw-bg-opacity, 1));
 }
 .bg-cover {
     background-size: cover;
