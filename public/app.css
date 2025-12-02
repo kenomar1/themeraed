@@ -984,14 +984,6 @@ select {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
-.mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-.mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
 .my-2\.5 {
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
@@ -1043,9 +1035,6 @@ select {
 }
 .me-2\.5 {
     margin-right: 0.625rem;
-}
-.ml-10 {
-    margin-left: 2.5rem;
 }
 .ml-4 {
     margin-left: 1rem;
@@ -1263,9 +1252,6 @@ select {
 .w-6 {
     width: 1.5rem;
 }
-.w-64 {
-    width: 16rem;
-}
 .w-7 {
     width: 1.75rem;
 }
@@ -1292,9 +1278,6 @@ select {
 }
 .max-w-lg {
     max-width: 32rem;
-}
-.max-w-screen-2xl {
-    max-width: 1536px;
 }
 .max-w-sm {
     max-width: 24rem;
@@ -1417,9 +1400,6 @@ select {
 }
 .gap-4 {
     gap: 1rem;
-}
-.gap-5 {
-    gap: 1.25rem;
 }
 .gap-6 {
     gap: 1.5rem;
@@ -1636,11 +1616,6 @@ select {
     border-color: rgba(229, 231, 235, 1);
     border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
 }
-.border-gray-800 {
-    --tw-border-opacity: 1;
-    border-color: rgba(31, 41, 55, 1);
-    border-color: rgba(31, 41, 55, var(--tw-border-opacity, 1));
-}
 .border-green-300 {
     --tw-border-opacity: 1;
     border-color: rgba(134, 239, 172, 1);
@@ -1675,19 +1650,22 @@ select {
     background-color: rgba(249, 250, 251, 1);
     background-color: rgba(249, 250, 251, var(--tw-bg-opacity, 1));
 }
-.bg-gray-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(17, 24, 39, 1);
-    background-color: rgba(17, 24, 39, var(--tw-bg-opacity, 1));
-}
 .bg-green-50 {
     --tw-bg-opacity: 1;
     background-color: rgba(240, 253, 244, 1);
     background-color: rgba(240, 253, 244, var(--tw-bg-opacity, 1));
 }
+.bg-inherit {
+    background-color: inherit;
+}
 .bg-primary {
     background-color: #414042;
     background-color: var(--color-primary);
+}
+.bg-red-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(239, 68, 68, 1);
+    background-color: rgba(239, 68, 68, var(--tw-bg-opacity, 1));
 }
 .bg-red-600 {
     --tw-bg-opacity: 1;
@@ -1699,13 +1677,10 @@ select {
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
 }
-.bg-inherit {
-    background-color: inherit;
-}
-.bg-red-500 {
+.bg-blue-500 {
     --tw-bg-opacity: 1;
-    background-color: rgba(239, 68, 68, 1);
-    background-color: rgba(239, 68, 68, var(--tw-bg-opacity, 1));
+    background-color: rgba(59, 130, 246, 1);
+    background-color: rgba(59, 130, 246, var(--tw-bg-opacity, 1));
 }
 .bg-cover {
     background-size: cover;
@@ -2093,16 +2068,6 @@ select {
 .line-through {
     text-decoration-line: line-through;
 }
-.placeholder-gray-500::-moz-placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(107, 114, 128, 1);
-    color: rgba(107, 114, 128, var(--tw-placeholder-opacity, 1));
-}
-.placeholder-gray-500::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(107, 114, 128, 1);
-    color: rgba(107, 114, 128, var(--tw-placeholder-opacity, 1));
-}
 .\!opacity-50 {
     opacity: 0.5 !important;
 }
@@ -2150,16 +2115,6 @@ select {
 }
 .outline {
     outline-style: solid;
-}
-.brightness-0 {
-    --tw-brightness: brightness(0);
-    filter: var(--tw-blur) brightness(0) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-.invert {
-    --tw-invert: invert(100%);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) invert(100%) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .filter {
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -23982,11 +23937,6 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
 .target\:btn:target:hover {
     opacity: 0.8;
 }
-.hover\:bg-gray-900:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(17, 24, 39, 1);
-    background-color: rgba(17, 24, 39, var(--tw-bg-opacity, 1));
-}
 .hover\:text-dark:hover {
     --tw-text-opacity: 1;
     color: rgba(29, 31, 31, 1);
@@ -23995,11 +23945,6 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
 .hover\:text-primary:hover {
     color: #414042;
     color: var(--color-primary);
-}
-.hover\:text-white:hover {
-    --tw-text-opacity: 1;
-    color: rgba(255, 255, 255, 1);
-    color: rgba(255, 255, 255, var(--tw-text-opacity, 1));
 }
 .hover\:underline:hover {
     text-decoration-line: underline;
@@ -24105,10 +24050,6 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
     .sm\:p-1 {
         padding: 0.25rem;
     }
-    .sm\:px-6 {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
     .sm\:py-16 {
         padding-top: 4rem;
         padding-bottom: 4rem;
@@ -24151,17 +24092,11 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
     .md\:mt-0 {
         margin-top: 0px;
     }
-    .md\:block {
-        display: block;
-    }
     .md\:flex {
         display: flex;
     }
     .md\:table-row {
         display: table-row;
-    }
-    .md\:hidden {
-        display: none;
     }
     .md\:h-20 {
         height: 5rem;
@@ -24310,10 +24245,6 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
     .lg\:col-span-6 {
         grid-column: span 6 / span 6;
     }
-    .lg\:mx-0 {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
     .lg\:-mt-28 {
         margin-top: -7rem;
     }
@@ -24341,12 +24272,6 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
     .lg\:hidden {
         display: none;
     }
-    .lg\:h-14 {
-        height: 3.5rem;
-    }
-    .lg\:h-24 {
-        height: 6rem;
-    }
     .lg\:min-h-\[528px\] {
         min-height: 528px;
     }
@@ -24364,9 +24289,6 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
     }
     .lg\:w-72 {
         width: 18rem;
-    }
-    .lg\:w-80 {
-        width: 20rem;
     }
     .lg\:w-96 {
         width: 24rem;
@@ -24425,10 +24347,6 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
         padding-left: 0px;
         padding-right: 0px;
     }
-    .lg\:px-8 {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
     .lg\:pb-11 {
         padding-bottom: 2.75rem;
     }
@@ -24455,9 +24373,6 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
     }
 }
 @media (min-width: 1280px) {
-    .xl\:flex {
-        display: flex;
-    }
     .xl\:gap-8 {
         gap: 2rem;
     }
@@ -24520,14 +24435,14 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
 .ltr\:mr-3:where([dir="ltr"], [dir="ltr"] *) {
     margin-right: 0.75rem;
 }
+.ltr\:mr-4:where([dir="ltr"], [dir="ltr"] *) {
+    margin-right: 1rem;
+}
 .ltr\:mr-8:where([dir="ltr"], [dir="ltr"] *) {
     margin-right: 2rem;
 }
 .ltr\:mr-auto:where([dir="ltr"], [dir="ltr"] *) {
     margin-right: auto;
-}
-.ltr\:mr-4:where([dir="ltr"], [dir="ltr"] *) {
-    margin-right: 1rem;
 }
 .ltr\:rounded-l-none:where([dir="ltr"], [dir="ltr"] *) {
     border-top-left-radius: 0px;
@@ -24638,8 +24553,15 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
 .rtl\:ml-3:where([dir="rtl"], [dir="rtl"] *) {
     margin-left: 0.75rem;
 }
+.rtl\:ml-4:where([dir="rtl"], [dir="rtl"] *) {
+    margin-left: 1rem;
+}
 .rtl\:ml-8:where([dir="rtl"], [dir="rtl"] *) {
     margin-left: 2rem;
+}
+.rtl\:ml-\[unset\]:where([dir="rtl"], [dir="rtl"] *) {
+    margin-left: 0;
+    margin-left: initial;
 }
 .rtl\:ml-auto:where([dir="rtl"], [dir="rtl"] *) {
     margin-left: auto;
@@ -24649,13 +24571,6 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
 }
 .rtl\:mr-3:where([dir="rtl"], [dir="rtl"] *) {
     margin-right: 0.75rem;
-}
-.rtl\:ml-4:where([dir="rtl"], [dir="rtl"] *) {
-    margin-left: 1rem;
-}
-.rtl\:ml-\[unset\]:where([dir="rtl"], [dir="rtl"] *) {
-    margin-left: 0;
-    margin-left: initial;
 }
 .rtl\:mr-4:where([dir="rtl"], [dir="rtl"] *) {
     margin-right: 1rem;
