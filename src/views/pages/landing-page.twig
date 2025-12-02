@@ -15,14 +15,12 @@
 #}
 {% extends "layouts.master" %}
 {% block content %}
-<script>
-	window.showQuantity = {{landing.show_quantity ? 'true' : 'false'}}
-</script>
+
     {# ======================== Landing Page ======================== #}
     {% if not landing %}
         <div class="landing-page notfound">
             <header>
-                <div class=" container">
+                <div class="header-content container">
                 <a href="{{ store.url }}" class="header-content-logo" aria-label="{{store.name}} logo">
 					<img src="{{ store.logo }}" width="75" height="75" alt="logo" class="logo"></a>
                     <div class="header-content-inner">
