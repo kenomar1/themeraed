@@ -26,4 +26,9 @@ $main-text-color: var(--main-text-color);
 
   /* plugins */
   --mm-ocd-width: calc(100% - 51px);
+  
 }
+.top-bar a { font-size: 13px; }
+.middle-header { border-bottom: 1px solid #333; }
+.main-nav { background: linear-gradient(90deg, #0d9488 0%, #10b981 100%); }
+.dropdown:hover > ul { display: block; } /* if you add dropdown menus later */
